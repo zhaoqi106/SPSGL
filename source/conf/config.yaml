@@ -1,0 +1,17 @@
+defaults:
+  - dataset: hcp
+  - model: spsgl
+  - optimizer: adam
+  - training: basic_training
+  - datasz: 100p
+  - preprocess: mixup
+
+repeat_time: 5
+k_fold: 5
+fold: None
+log_path: result
+save_learnable_graph: False
+is_train: True
+# wandb
+wandb_entity: eggroup
+project: SPSGL

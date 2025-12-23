@@ -1,0 +1,14 @@
+name: hcp
+batch_size: 64
+test_batch_size: 128
+val_batch_size: 128
+train_set: 0.8
+val_set: 0.2
+path: /data/local/disk1//hcp.npy
+
+stratified: True
+drop_last: True
+label_columns: PSQI_Score
+label_threshold: [5,6]
+label_sign: [0,1]
+ids_columns: Subject

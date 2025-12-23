@@ -1,0 +1,9 @@
+name: SPSGL
+sizes: [116, 50]
+pooling: [false, true]
+pos_encoding: none
+orthogonal: true
+freeze_center: true
+project_assignment: true
+pos_embed_dim: 360
+
